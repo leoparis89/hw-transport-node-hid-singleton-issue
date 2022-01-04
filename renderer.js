@@ -3,4 +3,8 @@
 // No Node.js APIs are available in this process because
 // `nodeIntegration` is turned off. Use `preload.js` to
 // selectively enable features needed in the rendering
+
 // process.
+
+const TransportNodeHid = require("@ledgerhq/hw-transport-node-hid-singleton");
+TransportNodeHid.create().then(console.log);
