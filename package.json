@@ -17,7 +17,7 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^16.0.5"
+    "electron": "^16.0.6"
   },
   "dependencies": {
     "@ledgerhq/hw-transport-node-hid-singleton": "^6.20.0"
